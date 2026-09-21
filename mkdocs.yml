@@ -1,10 +1,11 @@
 site_name: Персональный сайт Егора Солдатова
 site_description: Портфолио и проекты студента ИТМО
 site_author: Егор Солдатов
-site_url: https://ekkkqqw.github.io
+site_url: https://Setnothway.github.io
 
 theme:
   name: material
+  logo: images/logo.svg
   favicon: images/favicon.png
   palette:
     # Светлая тема
