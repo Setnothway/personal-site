@@ -1,0 +1,39 @@
+site_name: Персональный сайт Егора Солдатова
+site_description: Портфолио и проекты студента ИТМО
+site_author: Егор Солдатов
+site_url: https://ekkkqqw.github.io
+
+theme:
+  name: material
+  favicon: images/favicon.png
+  palette:
+    # Светлая тема
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    
+    # Тёмная тема
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Главная: index.md
+  - О себе: about.md
+  - Проекты: projects.md
+  - Контакты: contacts.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
