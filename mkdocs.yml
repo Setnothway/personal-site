@@ -5,7 +5,7 @@ site_url: https://Setnothway.github.io
 
 theme:
   name: material
-  logo: images/logo.svg
+  logo: images/logo2.svg
   favicon: images/favicon.png
   palette:
     # Светлая тема
